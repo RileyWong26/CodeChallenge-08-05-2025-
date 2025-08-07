@@ -1,6 +1,6 @@
 function maximumSeating(seats){
     var newSeat = 0;
-    // Use seats as queue
+    // Use seats as stack
     while(seats.length !== 0){
         const curr = seats.shift();
         // If current seat is a 0 check the next two
